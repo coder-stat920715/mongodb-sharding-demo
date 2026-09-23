@@ -1,0 +1,35 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: mongodb-sharding-demo
+  data:
+    mongodb:
+      # This URI points at the mongos ROUTER, not a shard directly.
+      # The application never talks to shard1/shard2/configsvr itself -
+      # mongos is the single logical entry point and owns all query routing.
+      uri: mongodb://localhost:27017/ecommerce_db
+      auto-index-creation: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus,mongo
+  endpoint:
+    health:
+      show-details: always
+  metrics:
+    tags:
+      application: ${spring.application.name}
+
+logging:
+  level:
+    root: INFO
+    com.publicissapient.shardingdemo: DEBUG
+    # Uncomment to see every command mongos sends and which shard(s) answered -
+    # extremely useful for visually proving targeted vs. scatter-gather routing.
+    # org.mongodb.driver.protocol.command: DEBUG
+  pattern:
+    console: "%d{HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n"
