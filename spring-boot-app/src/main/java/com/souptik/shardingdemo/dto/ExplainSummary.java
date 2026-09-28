@@ -1,4 +1,4 @@
-package com.publicissapient.shardingdemo.dto;
+package com.souptik.shardingdemo.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

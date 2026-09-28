@@ -1,6 +1,6 @@
-package com.publicissapient.shardingdemo.repository;
+package com.souptik.shardingdemo.repository;
 
-import com.publicissapient.shardingdemo.model.Order;
+import com.souptik.shardingdemo.model.Order;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

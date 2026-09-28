@@ -48,7 +48,7 @@ mongodb-sharding-demo/
 │   └── teardown.sh                             # docker compose down -v
 └── spring-boot-app/
     ├── pom.xml
-    └── src/main/java/com/publicissapient/shardingdemo/
+    └── src/main/java/com/souptik/shardingdemo/
         ├── ShardingDemoApplication.java
         ├── annotation/Sharded.java              # documents shard key on the entity
         ├── bootstrap/ShardedEntityInspector.java# logs @Sharded entities at startup

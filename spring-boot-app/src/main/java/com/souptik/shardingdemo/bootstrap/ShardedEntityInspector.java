@@ -1,6 +1,6 @@
-package com.publicissapient.shardingdemo.bootstrap;
+package com.souptik.shardingdemo.bootstrap;
 
-import com.publicissapient.shardingdemo.annotation.Sharded;
+import com.souptik.shardingdemo.annotation.Sharded;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.boot.ApplicationArguments;
@@ -22,7 +22,7 @@ import java.util.Arrays;
 @Component
 public class ShardedEntityInspector implements ApplicationRunner {
 
-    private static final String MODEL_PACKAGE = "com.publicissapient.shardingdemo.model";
+    private static final String MODEL_PACKAGE = "com.souptik.shardingdemo.model";
 
     @Override
     public void run(ApplicationArguments args) {

@@ -1,4 +1,4 @@
-package com.publicissapient.shardingdemo.config;
+package com.souptik.shardingdemo.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.config.EnableMongoAuditing;

@@ -1,4 +1,4 @@
-package com.publicissapient.shardingdemo.dto;
+package com.souptik.shardingdemo.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

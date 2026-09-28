@@ -1,8 +1,8 @@
-package com.publicissapient.shardingdemo.controller;
+package com.souptik.shardingdemo.controller;
 
-import com.publicissapient.shardingdemo.dto.ExplainSummary;
-import com.publicissapient.shardingdemo.model.Order;
-import com.publicissapient.shardingdemo.service.OrderService;
+import com.souptik.shardingdemo.dto.ExplainSummary;
+import com.souptik.shardingdemo.model.Order;
+import com.souptik.shardingdemo.service.OrderService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

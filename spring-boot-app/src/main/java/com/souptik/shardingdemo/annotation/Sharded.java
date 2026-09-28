@@ -1,4 +1,6 @@
-package com.publicissapient.shardingdemo.annotation;
+package com.souptik.shardingdemo.annotation;
+
+import com.souptik.shardingdemo.bootstrap.ShardedEntityInspector;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -19,7 +21,7 @@ import java.lang.annotation.Target;
  *     <li>Which fields MUST be supplied together to guarantee single-shard routing</li>
  *     <li>Whether the key is ranged or hashed (affects write distribution)</li>
  *     <li>Living documentation that survives refactors, verified at startup by
- *         {@link com.publicissapient.shardingdemo.bootstrap.ShardedEntityInspector}</li>
+ *         {@link ShardedEntityInspector}</li>
  * </ul>
  * The actual sharding of the collection is performed once, out-of-band, via
  * {@code scripts/04-add-shards-and-shard-collection.sh} against mongos.

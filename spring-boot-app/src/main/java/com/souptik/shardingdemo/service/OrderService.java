@@ -1,9 +1,9 @@
-package com.publicissapient.shardingdemo.service;
+package com.souptik.shardingdemo.service;
 
 import com.mongodb.ExplainVerbosity;
-import com.publicissapient.shardingdemo.dto.ExplainSummary;
-import com.publicissapient.shardingdemo.model.Order;
-import com.publicissapient.shardingdemo.repository.OrderRepository;
+import com.souptik.shardingdemo.dto.ExplainSummary;
+import com.souptik.shardingdemo.model.Order;
+import com.souptik.shardingdemo.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.bson.Document;

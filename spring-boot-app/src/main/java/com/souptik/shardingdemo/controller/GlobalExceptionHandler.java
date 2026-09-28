@@ -1,6 +1,6 @@
-package com.publicissapient.shardingdemo.controller;
+package com.souptik.shardingdemo.controller;
 
-import com.publicissapient.shardingdemo.dto.ApiError;
+import com.souptik.shardingdemo.dto.ApiError;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.dao.DuplicateKeyException;

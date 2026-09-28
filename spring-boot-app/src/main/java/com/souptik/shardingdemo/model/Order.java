@@ -1,6 +1,6 @@
-package com.publicissapient.shardingdemo.model;
+package com.souptik.shardingdemo.model;
 
-import com.publicissapient.shardingdemo.annotation.Sharded;
+import com.souptik.shardingdemo.annotation.Sharded;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;

@@ -1,4 +1,4 @@
-package com.publicissapient.shardingdemo;
+package com.souptik.shardingdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
